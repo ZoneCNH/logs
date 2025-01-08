@@ -1,0 +1,3 @@
+/target
+config/logger_config.yaml
+/logs/

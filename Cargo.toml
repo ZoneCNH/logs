@@ -1,0 +1,20 @@
+[package]
+name = "logs"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "logs"
+path = "src/lib.rs"
+
+[dependencies]
+log4rs = { version = "1.2.0", features = ["gzip"] }
+log = "0.4.20"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9"
+tokio = { version = "1.0", features = ["full"] }
+chrono = "0.4"
+
+[[bin]]
+name = "logs"
+path = "src/main.rs"
