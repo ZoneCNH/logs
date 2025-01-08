@@ -4,7 +4,8 @@
 git init
 
 # 添加远程仓库
-git remote add origin git@github.com:ZoneCNH/logs.git
+
+
 
 # 添加所有文件
 git add .
@@ -22,6 +23,8 @@ git commit -m "feat: add date variable support for log file naming
 - Update log file naming format to include date
 - Add time_support feature for date functionality
 - Update documentation with new features"
+
+git remote add origin git@github.com:ZoneCNH/logs.git
 
 # 切换到 main 分支
 git branch -M main
