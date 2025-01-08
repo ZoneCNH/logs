@@ -17,7 +17,7 @@
 [dependencies]
 logs = { path = "../path/to/logs" }
 or
-logs = { git = "ssh://git@github.com/RustFlux/logs.git", branch = "main" }
+logs = { git = "ssh://git@github.com/ZoneCNH/logs.git", branch = "main" }
 
 ```
 
